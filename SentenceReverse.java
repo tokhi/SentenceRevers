@@ -12,9 +12,9 @@ public class SentenceReverse {
 	public static void main(String[] args) {
 		Deque<String> stack = new ArrayDeque<String>();
 		
-		Scanner scan = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a sentence (e.g; The quick brown fox jumped): ");
-		String sen = scan.nextLine();
+		String sen = input.nextLine();
 		
 		String[] words = tokenize(sen);
 		
